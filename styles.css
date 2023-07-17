@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+ --naranja: #ffa915;
+}
+
+.inicio {
+    text-align: center;
+}
+
+main .presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Municipalidad_de_Campana.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    main .presentacion {
+        background-image: url(images/Municipalidad_de_Campana2.jpg);
+        background-size: cover;
+        background-position-x: 700px;
+    }
+  }
+  
+
+main .presentacion h1 {
+    flex: 1 1 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    margin: 20px;
+    color: var(--naranja);
+}
