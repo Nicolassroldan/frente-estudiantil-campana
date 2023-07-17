@@ -16,7 +16,7 @@ main .presentacion {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/Municipalidad_de_Campana.jpg);
+    background-image: url(images/Municipalidad_de_Campana2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;   
@@ -27,7 +27,6 @@ main .presentacion {
 
 @media (max-width: 767px) {
     main .presentacion {
-        background-image: url(images/Municipalidad_de_Campana2.jpg);
         background-size: cover;
         background-position-x: 700px;
     }
@@ -40,4 +39,13 @@ main .presentacion h1 {
     padding: 10px;
     margin: 20px;
     color: var(--naranja);
+}
+
+/* Principal */
+
+.bienvenido {
+ text-align: center;
+ color: var(--naranja);
+ padding: 5px;
+ margin: 0 20px;
 }
