@@ -49,3 +49,18 @@ main .presentacion h1 {
  padding: 5px;
  margin: 0 20px;
 }
+
+.contact {
+    text-align: center;
+    margin: 20px;
+}
+
+.contacto {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(
+        #ffa915, #f74803
+    );
+    color: #f5f5f5;
+}
